@@ -42,7 +42,7 @@ export default function App() {
       </div>
 
       <p className="text-sm text-gray-500 italic">
-        Click on the logos to learn more
+        Click on the logos to learn more dummy
       </p>
     </div>
   );

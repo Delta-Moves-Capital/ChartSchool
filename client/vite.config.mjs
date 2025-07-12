@@ -1,8 +1,8 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/ChartSchool/',  // ← Set this to the name of your repo
+  base: '/ChartSchool/', // Required for GitHub Pages deployment under this repo
   plugins: [react()],
-});
+})

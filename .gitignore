@@ -40,7 +40,7 @@ Desktop.ini
 *.code-workspace
 
 # === GitHub Specific ===
-.github/
+#.github/
 .devcontainer/
 
 # === Temporary Files ===
