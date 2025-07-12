@@ -1,0 +1,49 @@
+# === Node.js ===
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# === Vite ===
+.vite/
+.cache/
+dist/
+*.local
+
+# === Tailwind CSS IntelliSense Cache ===
+.tailwind*
+
+# === Build Output ===
+build/
+out/
+coverage/
+
+# === Logs ===
+logs/
+*.log
+*.log.*
+
+# === Environment Variables ===
+.env
+.env.*.local
+
+# === System Files ===
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Editors & IDEs ===
+.vscode/
+.history/
+.idea/
+*.code-workspace
+
+# === GitHub Specific ===
+.github/
+.devcontainer/
+
+# === Temporary Files ===
+temp/
+tmp/
+*.tmp
