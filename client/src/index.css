@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom global styles */
+body {
+  background-color: #111827; /* Tailwind's bg-gray-900 */
+  color: #ffffff;            /* Tailwind's text-white */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
