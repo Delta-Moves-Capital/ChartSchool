@@ -1,4 +1,4 @@
-# 📘 ChartSchool — React + Vite + Tailwind Starter
+# 📘 ChartSchool — React + Vite + Tailwind + Trying to Fix This F'n Thing
 
 **ChartSchool** is a modern front-end development environment built with **React**, **Vite**, and **Tailwind CSS**, designed to serve as the foundational UI layer for a larger trading education and charting visualization platform under the *Delta Moves Capital* brand.
 
