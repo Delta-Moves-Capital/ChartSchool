@@ -37,7 +37,7 @@ export default function App() {
           Count is {count}
         </button>
         <p className="text-gray-400 text-sm mt-3">
-          Edit <code className="text-pink-400">src/App.jsx</code> and save to test HMR
+          Edit <code className="text-pink-400">src/App.jsx</code> and save to test HMR (I did that)
         </p>
       </div>
 
