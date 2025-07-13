@@ -1,19 +1,9 @@
-name: Deploy Vite Site to GitHub Pages
-
-on:
-  push:
-    branches:
-      - main
-
-permissions:
-  contents: write
-
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout source
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Set up Node.js
@@ -22,10 +12,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
         working-directory: ./client
 
-      - name: Build Vite site
+      - name: Build Site
         run: npm run build
         working-directory: ./client
 
