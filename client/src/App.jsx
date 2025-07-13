@@ -26,7 +26,7 @@ export default function App() {
       </div>
 
       <h1 className="text-4xl font-extrabold tracking-tight text-center">
-        Vite + React + <span className="text-cyan-400">Tailwind</span>
+        Vite + React + <span className="text-cyan-400">Tailwind & Testing Repair</span>
       </h1>
 
       <div className="bg-gray-800 rounded-xl p-6 shadow-lg text-center w-72">
