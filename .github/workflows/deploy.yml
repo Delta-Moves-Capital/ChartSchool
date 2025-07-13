@@ -1,3 +1,13 @@
+name: Deploy Vite Site to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -10,12 +20,13 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
+          cache: npm
 
       - name: Install dependencies
         run: npm ci
         working-directory: ./client
 
-      - name: Build Site
+      - name: Build site
         run: npm run build
         working-directory: ./client
 
